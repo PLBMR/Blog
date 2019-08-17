@@ -1,6 +1,7 @@
 import React from 'react';
 
 import styles from './layout.module.less';
+import './layout.less';
 import BrandedHeader from './BrandedHeader.js';
 import BrandedFooter from './BrandedFooter.js';
 
