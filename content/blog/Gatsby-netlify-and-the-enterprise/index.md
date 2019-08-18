@@ -1,5 +1,5 @@
 ---
-title: Gatsby, netlify and the enterprise
+title: Gatsby, Netlify and the Enterprise
 date: "2019-08-18T09:33:52.073Z"
 author: tparnell
 tags:
