@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import { Link } from 'gatsby';
 
 import styles from './PostSummary.module.less';
@@ -23,7 +23,12 @@ export default function PostSummary({
         }}
       />
       <div className={styles.postMeta}>
-        <p className={styles.author}>{author}</p>
+        {author && (
+          <Fragment>
+            <p className={styles.author}>{author}</p>
+            <span className={styles.dot} />
+          </Fragment>
+        )}
         <time>{date}</time>
       </div>
     </article>

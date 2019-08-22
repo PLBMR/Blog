@@ -29,11 +29,13 @@
 
     .author {
         font-weight: 900;
+    }
+}
 
-        // adds a dot between author name and date
-        &:after {
-            content: " \2219 ";
-            .px-em-padding(0, 8, 0, 8);
-        }
+.dot {
+    // adds a dot between author name and date
+    &:after {
+        content: " \2219 ";
+        .px-em-padding(0, 8, 0, 8);
     }
 }
