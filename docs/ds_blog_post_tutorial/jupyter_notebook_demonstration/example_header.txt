@@ -1,0 +1,7 @@
+---
+title: "Jupyter Notebook Demonstration"
+date: "2019-08-21"
+author: "mrosenberg"
+tags:
+- data_science
+---
